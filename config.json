@@ -1,0 +1,20 @@
+{
+  "excel_file": "data.xlsx",
+  "slides_id": "your-slides-id",
+  "client_secret_file": "client_secret.json",
+  "image_dir": "images",
+  "format": [
+    "type",
+    "sheet_name",
+    "source_name",
+    "slide_page_number",
+    "x",
+    "y",
+    "width",
+    "height"
+  ],
+  "mappings": [
+    ["chart", "Sheet1", "Chart 1", 1, 100, 100, 300, 200],
+    ["range", "Sheet1", "MyNamedRange", 2, 50, 150, 400, 250]
+  ]
+}
