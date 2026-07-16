@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tidbyt-agent-notify"
+version = "0.1.0"
+description = "Agent notifications on a Tidbyt: Claude Code, Codex, and friends interrupt your clock when they need you"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["Pillow>=9.0"]
+
+[project.scripts]
+tidbyt-notify = "tidbyt_notify.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["tidbyt_notify*"]

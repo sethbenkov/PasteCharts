@@ -1,0 +1,25 @@
+{
+  "//": "Merge into ~/.claude/settings.json. Adjust the path to wherever you put claude-code-hook.sh (and chmod +x it).",
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "~/tidbyt-agent-notify/examples/claude-code-hook.sh"
+          }
+        ]
+      }
+    ],
+    "Notification": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "~/tidbyt-agent-notify/examples/claude-code-hook.sh"
+          }
+        ]
+      }
+    ]
+  }
+}
