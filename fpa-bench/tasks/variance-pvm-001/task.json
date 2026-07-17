@@ -1,0 +1,45 @@
+{
+  "title": "Price / Volume / Mix revenue variance decomposition",
+  "category": "variance_analysis",
+  "difficulty": "medium",
+  "grading": "numeric",
+  "fields": [
+    {
+      "name": "budget_revenue",
+      "type": "number",
+      "weight": 1.0,
+      "rel_tol": 0.005
+    },
+    {
+      "name": "actual_revenue",
+      "type": "number",
+      "weight": 1.0,
+      "rel_tol": 0.005
+    },
+    {
+      "name": "total_revenue_variance",
+      "type": "number",
+      "weight": 1.5,
+      "rel_tol": 0.005
+    },
+    {
+      "name": "price_variance",
+      "type": "number",
+      "weight": 1.5,
+      "rel_tol": 0.005
+    },
+    {
+      "name": "volume_variance",
+      "type": "number",
+      "weight": 1.5,
+      "rel_tol": 0.005
+    },
+    {
+      "name": "mix_variance",
+      "type": "number",
+      "weight": 1.5,
+      "rel_tol": 0.005
+    }
+  ],
+  "task_id": "variance-pvm-001"
+}

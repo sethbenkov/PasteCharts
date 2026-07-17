@@ -1,0 +1,5 @@
+quarter_of_tenure_or_fiscal_quarter,ramp_productivity_pct,seasonality_multiplier
+1,25,0.85
+2,50,0.95
+3,75,1.0
+4,100,1.2

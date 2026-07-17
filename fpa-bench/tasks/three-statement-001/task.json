@@ -1,0 +1,63 @@
+{
+  "title": "One-year linked three-statement projection",
+  "category": "financial_modeling",
+  "difficulty": "hard",
+  "grading": "numeric",
+  "fields": [
+    {
+      "name": "revenue",
+      "type": "number",
+      "weight": 1.0,
+      "rel_tol": 0.005
+    },
+    {
+      "name": "gross_profit",
+      "type": "number",
+      "weight": 1.0,
+      "rel_tol": 0.005
+    },
+    {
+      "name": "ebitda",
+      "type": "number",
+      "weight": 1.5,
+      "rel_tol": 0.005
+    },
+    {
+      "name": "net_income",
+      "type": "number",
+      "weight": 2,
+      "rel_tol": 0.005
+    },
+    {
+      "name": "change_in_net_working_capital",
+      "type": "number",
+      "weight": 1.5,
+      "rel_tol": 0.005
+    },
+    {
+      "name": "ending_cash",
+      "type": "number",
+      "weight": 2,
+      "rel_tol": 0.005
+    },
+    {
+      "name": "ending_net_ppe",
+      "type": "number",
+      "weight": 1.0,
+      "rel_tol": 0.005
+    },
+    {
+      "name": "ending_retained_earnings",
+      "type": "number",
+      "weight": 1.0,
+      "rel_tol": 0.005
+    },
+    {
+      "name": "ending_total_assets",
+      "type": "number",
+      "weight": 1.5,
+      "rel_tol": 0.005
+    }
+  ],
+  "task_id": "three-statement-001"
+}

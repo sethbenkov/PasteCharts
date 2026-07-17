@@ -1,0 +1,9 @@
+{
+  "wacc_pct": 8.3889,
+  "npv_project_a": 6353.8641,
+  "npv_project_b": 4752.3571,
+  "irr_project_a_pct": 26.4945,
+  "irr_project_b_pct": 16.3178,
+  "payback_years_project_a": 2.1201,
+  "recommended_project": "A"
+}

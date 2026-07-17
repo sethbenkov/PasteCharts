@@ -1,0 +1,15 @@
+line_item,value
+revenue,66500
+cogs,32026
+gross_profit,31966
+sales_and_marketing,13577
+research_and_development,11474
+general_and_administrative,4466
+total_operating_expenses,31401
+depreciation,2836
+operating_income,2446
+interest_expense,1036
+pretax_income,1063
+tax_rate_pct,25
+tax_expense,400
+net_income,861

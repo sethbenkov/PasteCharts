@@ -1,0 +1,9 @@
+{
+  "title": "Q3 board memo: performance vs plan",
+  "category": "strategic_narrative",
+  "difficulty": "medium",
+  "grading": "judge",
+  "fields": [],
+  "rubric": "\nScore out of 20 points total:\n1. (5 pts) Numeric accuracy: total revenue vs budget and total opex vs budget are stated and\n   consistent with the data (within rounding). No fabricated figures anywhere in the memo.\n2. (4 pts) Correctly identifies the PRIMARY revenue driver: the EMEA miss, linked to enterprise\n   logo churn in EMEA (per the KPI file). Partial credit (2) if EMEA miss noted without the churn link.\n3. (3 pts) Correctly identifies the opex favorability driver: R&D underspend from unfilled headcount.\n4. (3 pts) Actionable, specific recommendation(s) tied to the drivers (e.g., EMEA retention plan,\n   hiring catch-up tradeoff) \u2014 not generic boilerplate.\n5. (3 pts) Board-appropriate communication: leads with the headline, <= 400 words, clear structure.\n6. (2 pts) Notes at least one relevant secondary signal from the KPI file (e.g., NDR, cash balance).\n",
+  "task_id": "board-memo-001"
+}

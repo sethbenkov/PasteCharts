@@ -1,0 +1,44 @@
+{
+  "title": "Opex budget variance with FX / organic split",
+  "category": "variance_analysis",
+  "difficulty": "medium",
+  "grading": "numeric",
+  "fields": [
+    {
+      "name": "total_budget_usd",
+      "type": "number",
+      "weight": 1.0,
+      "rel_tol": 0.005
+    },
+    {
+      "name": "total_actual_usd",
+      "type": "number",
+      "weight": 1.0,
+      "rel_tol": 0.005
+    },
+    {
+      "name": "total_variance_usd",
+      "type": "number",
+      "weight": 1.5,
+      "rel_tol": 0.005
+    },
+    {
+      "name": "fx_variance_usd",
+      "type": "number",
+      "weight": 1.5,
+      "rel_tol": 0.005
+    },
+    {
+      "name": "organic_variance_usd",
+      "type": "number",
+      "weight": 1.5,
+      "rel_tol": 0.005
+    },
+    {
+      "name": "largest_organic_overspend_dept",
+      "type": "string",
+      "weight": 1.5
+    }
+  ],
+  "task_id": "budget-variance-fx-001"
+}

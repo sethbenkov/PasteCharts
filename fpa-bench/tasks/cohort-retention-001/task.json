@@ -1,0 +1,43 @@
+{
+  "title": "Revenue cohort retention from raw transactions",
+  "category": "cohort_analysis",
+  "difficulty": "medium",
+  "grading": "numeric",
+  "fields": [
+    {
+      "name": "jan_cohort_customers",
+      "type": "integer",
+      "weight": 1.0
+    },
+    {
+      "name": "jan_cohort_month0_revenue",
+      "type": "number",
+      "weight": 1.0,
+      "rel_tol": 0.005
+    },
+    {
+      "name": "jan_cohort_m3_retention_pct",
+      "type": "number",
+      "weight": 1.5,
+      "rel_tol": 0.005
+    },
+    {
+      "name": "jan_cohort_m6_retention_pct",
+      "type": "number",
+      "weight": 1.5,
+      "rel_tol": 0.005
+    },
+    {
+      "name": "apr_cohort_m3_retention_pct",
+      "type": "number",
+      "weight": 1.5,
+      "rel_tol": 0.005
+    },
+    {
+      "name": "best_m3_retention_cohort",
+      "type": "string",
+      "weight": 1.5
+    }
+  ],
+  "task_id": "cohort-retention-001"
+}

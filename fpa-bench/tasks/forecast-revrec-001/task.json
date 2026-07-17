@@ -1,0 +1,69 @@
+{
+  "title": "Capacity-driven bookings forecast with ratable rev rec",
+  "category": "forecasting",
+  "difficulty": "hard",
+  "grading": "numeric",
+  "fields": [
+    {
+      "name": "bookings_2026_q1",
+      "type": "number",
+      "weight": 1.0,
+      "rel_tol": 0.005
+    },
+    {
+      "name": "bookings_2026_q2",
+      "type": "number",
+      "weight": 1.0,
+      "rel_tol": 0.005
+    },
+    {
+      "name": "bookings_2026_q3",
+      "type": "number",
+      "weight": 1.0,
+      "rel_tol": 0.005
+    },
+    {
+      "name": "bookings_2026_q4",
+      "type": "number",
+      "weight": 1.0,
+      "rel_tol": 0.005
+    },
+    {
+      "name": "total_bookings_2026",
+      "type": "number",
+      "weight": 1.5,
+      "rel_tol": 0.005
+    },
+    {
+      "name": "revenue_2026_q1",
+      "type": "number",
+      "weight": 1.0,
+      "rel_tol": 0.005
+    },
+    {
+      "name": "revenue_2026_q2",
+      "type": "number",
+      "weight": 1.0,
+      "rel_tol": 0.005
+    },
+    {
+      "name": "revenue_2026_q3",
+      "type": "number",
+      "weight": 1.0,
+      "rel_tol": 0.005
+    },
+    {
+      "name": "revenue_2026_q4",
+      "type": "number",
+      "weight": 1.0,
+      "rel_tol": 0.005
+    },
+    {
+      "name": "total_revenue_2026",
+      "type": "number",
+      "weight": 1.5,
+      "rel_tol": 0.005
+    }
+  ],
+  "task_id": "forecast-revrec-001"
+}

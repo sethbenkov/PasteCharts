@@ -1,0 +1,45 @@
+{
+  "title": "Find and correct the errors in a reported P&L",
+  "category": "review_and_controls",
+  "difficulty": "medium",
+  "grading": "numeric",
+  "fields": [
+    {
+      "name": "correct_gross_profit",
+      "type": "number",
+      "weight": 1,
+      "rel_tol": 0.001
+    },
+    {
+      "name": "correct_total_operating_expenses",
+      "type": "number",
+      "weight": 1,
+      "rel_tol": 0.001
+    },
+    {
+      "name": "correct_operating_income",
+      "type": "number",
+      "weight": 1.5,
+      "rel_tol": 0.001
+    },
+    {
+      "name": "correct_pretax_income",
+      "type": "number",
+      "weight": 1,
+      "rel_tol": 0.001
+    },
+    {
+      "name": "correct_tax_expense",
+      "type": "number",
+      "weight": 1,
+      "rel_tol": 0.001
+    },
+    {
+      "name": "correct_net_income",
+      "type": "number",
+      "weight": 1.5,
+      "rel_tol": 0.001
+    }
+  ],
+  "task_id": "error-detection-001"
+}

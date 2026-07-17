@@ -1,0 +1,39 @@
+{
+  "title": "Working capital cycle and cash release",
+  "category": "working_capital",
+  "difficulty": "easy",
+  "grading": "numeric",
+  "fields": [
+    {
+      "name": "dso_days",
+      "type": "number",
+      "weight": 1,
+      "rel_tol": 0.002
+    },
+    {
+      "name": "dio_days",
+      "type": "number",
+      "weight": 1,
+      "rel_tol": 0.002
+    },
+    {
+      "name": "dpo_days",
+      "type": "number",
+      "weight": 1,
+      "rel_tol": 0.002
+    },
+    {
+      "name": "cash_conversion_cycle_days",
+      "type": "number",
+      "weight": 1.5,
+      "rel_tol": 0.002
+    },
+    {
+      "name": "cash_freed_by_dso_improvement",
+      "type": "number",
+      "weight": 1.5,
+      "rel_tol": 0.005
+    }
+  ],
+  "task_id": "working-capital-001"
+}

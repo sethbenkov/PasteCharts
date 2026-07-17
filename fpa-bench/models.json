@@ -1,0 +1,27 @@
+{
+  "_comment": "Model/harness registry. `python -m bench run --model <spec>` accepts anthropic/<id>, openai/<id>, openrouter/<vendor>/<id>, or cli/<name> (looked up below). Set ANTHROPIC_API_KEY / OPENAI_API_KEY / OPENROUTER_API_KEY in the environment.",
+  "thinking_budget": null,
+  "cli": {
+    "claude-code": {
+      "command": "claude -p --permission-mode acceptEdits --output-format text",
+      "timeout": 1800,
+      "_comment": "Runs Claude Code in the task workdir with data/ staged. Pin the CLI version when reporting results."
+    },
+    "codex": {
+      "command": "codex exec --sandbox workspace-write -",
+      "timeout": 1800
+    }
+  },
+  "suggested_matrix": {
+    "chat": [
+      "anthropic/claude-fable-5",
+      "anthropic/claude-opus-4-8",
+      "anthropic/claude-sonnet-5",
+      "anthropic/claude-haiku-4-5-20251001",
+      "openai/gpt-5.2",
+      "openrouter/google/gemini-3-pro"
+    ],
+    "agent": ["cli/claude-code", "cli/codex"],
+    "judge": "anthropic/claude-opus-4-8"
+  }
+}

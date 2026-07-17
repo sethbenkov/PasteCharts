@@ -1,0 +1,8 @@
+{
+  "total_budget_usd": 12783500.0,
+  "total_actual_usd": 13110686.2176,
+  "total_variance_usd": 327186.2176,
+  "fx_variance_usd": -2291.9724,
+  "organic_variance_usd": 329478.19,
+  "largest_organic_overspend_dept": "APAC Ops"
+}

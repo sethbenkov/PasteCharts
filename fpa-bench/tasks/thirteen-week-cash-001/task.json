@@ -1,0 +1,43 @@
+{
+  "title": "13-week direct cash flow forecast with covenant check",
+  "category": "cash_forecasting",
+  "difficulty": "hard",
+  "grading": "numeric",
+  "fields": [
+    {
+      "name": "total_collections",
+      "type": "number",
+      "weight": 1.0,
+      "rel_tol": 0.005
+    },
+    {
+      "name": "total_disbursements",
+      "type": "number",
+      "weight": 1.0,
+      "rel_tol": 0.005
+    },
+    {
+      "name": "ending_cash_week_13",
+      "type": "number",
+      "weight": 2,
+      "rel_tol": 0.005
+    },
+    {
+      "name": "minimum_ending_cash",
+      "type": "number",
+      "weight": 2,
+      "rel_tol": 0.005
+    },
+    {
+      "name": "minimum_cash_week",
+      "type": "integer",
+      "weight": 1.5
+    },
+    {
+      "name": "weeks_below_covenant",
+      "type": "integer",
+      "weight": 1.5
+    }
+  ],
+  "task_id": "thirteen-week-cash-001"
+}

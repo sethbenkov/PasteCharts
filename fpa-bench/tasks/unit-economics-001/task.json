@@ -1,0 +1,37 @@
+{
+  "title": "Channel unit economics and budget allocation",
+  "category": "unit_economics",
+  "difficulty": "medium",
+  "grading": "numeric",
+  "fields": [
+    {
+      "name": "best_channel_by_contribution_per_cac_dollar",
+      "type": "string",
+      "weight": 1.5
+    },
+    {
+      "name": "best_channel_contribution_per_order",
+      "type": "number",
+      "weight": 1.0,
+      "rel_tol": 0.005
+    },
+    {
+      "name": "optimal_total_orders",
+      "type": "integer",
+      "weight": 1.5
+    },
+    {
+      "name": "optimal_total_contribution",
+      "type": "number",
+      "weight": 1.5,
+      "rel_tol": 0.005
+    },
+    {
+      "name": "unspent_budget",
+      "type": "number",
+      "weight": 1.0,
+      "rel_tol": 0.005
+    }
+  ],
+  "task_id": "unit-economics-001"
+}

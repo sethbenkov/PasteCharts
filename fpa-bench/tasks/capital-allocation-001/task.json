@@ -1,0 +1,50 @@
+{
+  "title": "WACC, NPV, IRR and project selection",
+  "category": "corporate_finance",
+  "difficulty": "medium",
+  "grading": "numeric",
+  "fields": [
+    {
+      "name": "wacc_pct",
+      "type": "number",
+      "weight": 1.5,
+      "rel_tol": 0.002
+    },
+    {
+      "name": "npv_project_a",
+      "type": "number",
+      "weight": 1.5,
+      "rel_tol": 0.005
+    },
+    {
+      "name": "npv_project_b",
+      "type": "number",
+      "weight": 1.5,
+      "rel_tol": 0.005
+    },
+    {
+      "name": "irr_project_a_pct",
+      "type": "number",
+      "weight": 1.0,
+      "rel_tol": 0.01
+    },
+    {
+      "name": "irr_project_b_pct",
+      "type": "number",
+      "weight": 1.0,
+      "rel_tol": 0.01
+    },
+    {
+      "name": "payback_years_project_a",
+      "type": "number",
+      "weight": 1.0,
+      "rel_tol": 0.01
+    },
+    {
+      "name": "recommended_project",
+      "type": "string",
+      "weight": 1.5
+    }
+  ],
+  "task_id": "capital-allocation-001"
+}

@@ -1,0 +1,14 @@
+assumption,value
+revenue_growth_pct,13.0
+cogs_pct_of_revenue,45.5
+opex_fixed,9250
+opex_variable_pct_of_revenue,10.2
+depreciation,1500
+capex,4700
+interest_rate_pct_on_beginning_debt,6.54
+tax_rate_pct,25.0
+debt_repayment,1250
+dso_days,51
+dio_days,71
+dpo_days,52
+prior_year_revenue,72000

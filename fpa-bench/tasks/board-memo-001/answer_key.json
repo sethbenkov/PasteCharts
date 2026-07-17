@@ -1,0 +1,18 @@
+{
+  "total_revenue_budget": 17200,
+  "total_revenue_actual": 15897,
+  "revenue_variance": -1303,
+  "primary_revenue_driver": "EMEA enterprise churn",
+  "emea_revenue_variance": -1350,
+  "total_opex_budget": 7150,
+  "total_opex_actual": 6750,
+  "opex_variance_favorable": 400,
+  "primary_opex_driver": "R&D underspend from unfilled headcount",
+  "kpis": {
+    "enterprise_logos_churned_emea": 3,
+    "enterprise_logos_churned_other": 0,
+    "open_headcount_rd_unfilled": 8,
+    "ndr_pct": 101.8,
+    "cash_balance_eoq": 38000
+  }
+}

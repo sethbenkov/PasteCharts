@@ -1,0 +1,9 @@
+department,currency,budget_local,actual_local,budget_fx_rate_to_usd,actual_fx_rate_to_usd
+Engineering,USD,1050000,1016435,1.0,1.0
+Sales,USD,600000,702390,1.0,1.0
+Marketing,GBP,2100000,1989634,1.27,1.3009
+Customer Success,EUR,1650000,1511755,1.08,1.0504
+G&A,USD,2100000,2152784,1.0,1.0
+EMEA Ops,EUR,1475000,1711350,1.08,1.1313
+APAC Ops,JPY,262500000,302590100,0.0068,0.0066
+Data & Analytics,GBP,950000,925959,1.27,1.22

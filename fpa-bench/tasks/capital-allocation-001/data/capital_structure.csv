@@ -1,0 +1,8 @@
+parameter,value
+market_value_of_debt,39000
+market_value_of_equity,72000
+pretax_cost_of_debt_pct,8.43
+tax_rate_pct,25.0
+risk_free_rate_pct,3.71
+equity_beta,1.06
+equity_risk_premium_pct,5.47

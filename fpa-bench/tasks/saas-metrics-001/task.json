@@ -1,0 +1,57 @@
+{
+  "title": "SaaS metrics from an MRR movements ledger",
+  "category": "saas_metrics",
+  "difficulty": "medium",
+  "grading": "numeric",
+  "fields": [
+    {
+      "name": "ending_mrr",
+      "type": "number",
+      "weight": 1.5,
+      "rel_tol": 0.005
+    },
+    {
+      "name": "ending_arr",
+      "type": "number",
+      "weight": 1.0,
+      "rel_tol": 0.005
+    },
+    {
+      "name": "arr_growth_pct",
+      "type": "number",
+      "weight": 1.0,
+      "rel_tol": 0.005
+    },
+    {
+      "name": "ndr_pct",
+      "type": "number",
+      "weight": 1.5,
+      "rel_tol": 0.005
+    },
+    {
+      "name": "grr_pct",
+      "type": "number",
+      "weight": 1.5,
+      "rel_tol": 0.005
+    },
+    {
+      "name": "blended_cac",
+      "type": "number",
+      "weight": 1.0,
+      "rel_tol": 0.005
+    },
+    {
+      "name": "cac_payback_months",
+      "type": "number",
+      "weight": 1.5,
+      "rel_tol": 0.005
+    },
+    {
+      "name": "rule_of_40_score",
+      "type": "number",
+      "weight": 1.0,
+      "rel_tol": 0.005
+    }
+  ],
+  "task_id": "saas-metrics-001"
+}
